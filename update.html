@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="education.css">
+</head>
+<body>
+    <!--Header section start-->
+
+    <header class="header">
+        <section class="flex">
+          <a href="index.html"  class="logo">LogicGate.com</a>
+  
+  
+          <form action="" method="post" class="search-form">
+             <input type="text" name="search_box" placeholder="Search Courses..." required maxlength="100">
+             <button type="submit" class="fas fa-search" name="search_box"></button>
+          </form>
+  
+          <div class="icons">
+              <div id="menu-btn" class="fas fa-bars"></div>
+              <div id="search-btn" class="fas fa-search"></div>
+              <div id="user-btn" class="fas fa-user"></div>
+              <div id="toggle-btn" class="fas fa-sun"></div>
+          </div>
+  
+          <div class="profile">
+              <img src="https://static.vecteezy.com/system/resources/previews/020/389/525/original/hand-drawing-cartoon-girl-cute-girl-drawing-for-profile-picture-vector.jpg" alt="">
+              <h3>Madhu Sharma</h3>
+              <span>Student</span>
+              <a href="profile.html" class="btn">View Profile</a>
+              <div class="flex-btn">
+                  <a href="login.html" class="option-btn">Login</a>
+                  <a href="register.html" class="option-btn">Register</a>
+              </div>
+          </div>
+        </section>
+     </header>
+    <!--Header Section end-->
+     <!--Header Section end-->
+<!--side bar section start-->
+
+<div class="side-bar">
+    
+    <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+    </div>
+
+    <div class="profile">
+        <img src="https://static.vecteezy.com/system/resources/previews/020/389/525/original/hand-drawing-cartoon-girl-cute-girl-drawing-for-profile-picture-vector.jpg" alt="">
+        <h3>Madhu Sharma</h3>
+        <span>Student</span>
+        <a href="profile.html" class="btn">View Profile</a>
+       
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+            <a href="donate.html"><i class="fas fa-heart"></i><span>Donate Us</span></a>
+
+        </nav>
+    </div>
+</div>
+    <!--side bar section end-->
+
+<!--update profile section start-->
+
+<section class="form-container">
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <h3>Update profile</h3>
+        <p>Your Name</p>
+
+        <input type="text" name="name" placeholder="Your Name" maxlength="100" class="box">
+        <p>Your Email</p>
+
+        <input type="email" name="email" placeholder="Your Email" maxlength="100" class="box">
+        <p>Your Old Password</p>
+
+        <input type="password" name="old_pass" placeholder="Enter Your Old password" maxlength="50" class="box">
+        <p>New Password</p>
+
+        <input type="password" name="new_pass" placeholder="Enter Your New password" maxlength="50" class="box">
+        <p>Confirm New Password</p>
+
+        <input type="password" name="c_pass" placeholder="Confirm Your New password" maxlength="50" class="box">
+        <p>Update Image</p>
+
+        <input type="file" name="image" accept="image/*" class="box">
+         <input type="submit" name="submit" value="update profile" class="btn">
+    </form>
+</section>
+
+
+
+
+<!--update profile section end-->
+    <!--Footer section Start-->
+    <footer class="footer">
+        @copy; copyright @ 2023 by <span>LogicGate.com</span> 
+     </footer>
+  <!--Footer section end-->
+    <!--custom js file link-->
+    <script src="education.js"></script>
+</body>
+</html>
